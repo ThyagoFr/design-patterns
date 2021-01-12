@@ -3,15 +3,15 @@ package main
 import (
 	"fmt"
 
-	"github.com/thyagofr/design-patterns/builder/data"
+	pattern "github.com/thyagofr/design-patterns/builder/pattern"
 )
 
 // Builder Pattern -
-// Utilizando quando se tem um objeto complicado de se construir/instanciar
+// Utilizado quando se tem um objeto complicado de se construir/instanciar
 
 func main() {
 
-	builder := data.NewPersonBuilder()
+	builder := pattern.NewPersonBuilder()
 	builder.
 		Email("thyagofr@alu.ufc.br").
 		Name("Thyago Freitas da Silva").
